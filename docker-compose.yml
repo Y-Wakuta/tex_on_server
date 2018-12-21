@@ -1,0 +1,8 @@
+version: '2'
+services:
+  tex_on_server:
+    container_name: tex_on_server_wakuta
+    build: .
+    volumes:
+      - "./workdir:/workdir"
+    tty: true
